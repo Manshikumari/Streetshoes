@@ -7,26 +7,35 @@
   font-size: 18px;
   line-height: normal;
 }
-.header
+.main
 {
+  background-color: aliceblue;
+  border-bottom: 2px solid #eee;
   height: 100px;
   width: 100%;
   display: flex;
 }
+.left
 
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  {
+    padding: 10px 10px;
+    background-color: rgb(153, 194, 231);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
-  .left{
-    display:inline;
-  }
-  #center1{
-    position: relative;
-  }
+.right
+{
+  padding: 10px 10px;
+  background-color: rgb(153, 194, 231);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.center
+{
+  padding: 20px 20px;
+  align-items: center;
 }
